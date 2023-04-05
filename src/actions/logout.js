@@ -13,7 +13,7 @@ export async function logoutAction() {
     key: "userName",
   });
 
-  // toast.promise({});
+  // toast.promise({}); <-- Poderíamos usar assim no caso de um servidor back-end funcionando
   toast.success("Você deletou sua conta!");
 
   // return redirect
